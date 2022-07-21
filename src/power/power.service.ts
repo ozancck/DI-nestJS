@@ -4,5 +4,6 @@ import { Injectable } from '@nestjs/common';
 export class PowerService {
   supplayPower(watts: number) {
     console.log(`Supplaying ${watts} worth of power`);
+    return 'Data!';
   }
 }
